@@ -1,0 +1,17 @@
+
+> gravity-dev@1.107.0 gulp
+> node --max-old-space-size=8192 ./node_modules/gulp/bin/gulp.js vscode-win32-x64-min
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'gulp-sort' imported from D:\Auro code\Gravity\Gravity\build\lib\nls.ts
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:266:9)
+    at packageResolve (node:internal/modules/esm/resolve:767:81)
+    at moduleResolve (node:internal/modules/esm/resolve:853:18)
+    at defaultResolve (node:internal/modules/esm/resolve:983:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:731:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:767:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:790:52)
+    at #cachedResolveSync (node:internal/modules/esm/loader:750:25)
+    at ModuleLoader.getModuleJobForRequire (node:internal/modules/esm/loader:459:50)
+    at new ModuleJobSync (node:internal/modules/esm/module_job:395:34) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
